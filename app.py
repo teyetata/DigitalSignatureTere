@@ -561,3 +561,5 @@ if st.button("⚡ GENERATE & VERIFY", use_container_width=True):
     elif algo_name == "DSA": render_dsa(message, dsa_mode, p_val_dsa, q_val_dsa, g_val_dsa, x_val_dsa, k_val_dsa, hash_algo)
     
     st.caption(f"⏱️ Selesai dalam {(time.time() - t_start)*1000:.1f} ms")
+
+##
